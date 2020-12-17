@@ -11,7 +11,7 @@
       <Button fx:id="guessButton" layoutX="18.0" layoutY="358.0" mnemonicParsing="false" onAction="#onGuessAction" text="Угадать" />
       <Button layoutX="324.0" layoutY="358.0" mnemonicParsing="false" onAction="#onExitAction" text="Выход" />
       <Label fx:id="secretLabel" layoutX="14.0" layoutY="138.0" text="Label" />
-      <TextField fx:id="inputField" layoutX="14.0" layoutY="315.0" onKeyTyped="#onInputAction" prefHeight="26.0" prefWidth="375.0" />
+      <TextField fx:id="inputField" layoutX="14.0" layoutY="315.0" onAction="#onGuessAction" onKeyTyped="#onInputAction" prefHeight="26.0" prefWidth="375.0" />
       <Button layoutX="163.0" layoutY="358.0" mnemonicParsing="false" onMousePressed="#onHelpShowAction" onMouseReleased="#onHelpHideAction" text="Помощь" />
       <Label fx:id="helpLabel" layoutX="14.0" layoutY="178.0" text="Label" />
       <Label fx:id="promptLabel" layoutX="14.0" layoutY="291.0" text="Label" />
